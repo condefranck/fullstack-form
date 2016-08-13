@@ -1,0 +1,97 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222;
+}
+
+.conteneur{
+    width: 1100px;
+    margin: 0 auto;
+    background: #fff;
+}
+
+.contenu{
+    padding: 20px 10px 20px 10px;
+}
+
+.menu{
+    border: 1px solid #ccc;
+    height: 213px;
+}
+
+.titre-menu{
+    padding: 10px 10px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #444;
+}
+
+.liste-cat{
+    margin: 20px 0px;
+}
+
+.liste-cat li{
+    list-style-type: none;
+}
+
+.liste-cat li a{
+    text-decoration: none;
+    display: block;
+    margin: 10px 5px;
+    color: #444;
+    text-transform: uppercase;
+    background: url('../img/fleche.png') no-repeat right center;
+}
+
+.liste-cat li a:hover{
+    color: orange;
+}
+
+.article{
+    border: 1px solid #ccc;
+    height: 285px;
+    margin-bottom: 10px;
+}
+
+.article img{
+   margin: 10px auto;
+}
+
+.titre-article{
+    color: orange;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+nav{
+    text-align: center;
+}
+
+.taille{
+    font-size: 12px;
+    color: #777;
+    padding: 0 10px 5px 10px;
+}
+
+.prix{
+    color: #999;
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.footer{
+    padding: 20px 10px;
+    margin: 0 20px;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+    color: #777;
+}
+
+.dev{
+    text-align: right;
+}
